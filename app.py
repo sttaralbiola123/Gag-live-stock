@@ -10,7 +10,7 @@ from flask import Flask, jsonify
 from datetime import datetime
 
 # ---------- Configuration ----------
-BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN", "MTUxMDIzNDg3NDYwOTUzNzA0NA.G2HAxy.Dj5j2khNm3FDdfIOkYhGrhGjNRudR-AdLv6tlE)
+BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
 API_BASE_URL = "https://gagapi2.onrender.com"
 CONFIG_FILE = "config.json"
 
